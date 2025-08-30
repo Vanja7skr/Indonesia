@@ -1,0 +1,90 @@
+.header {
+  background-image: url("../images/diego-gutierrez-NRn5rrBnH8w-unsplash 1headerbg-desktop1x-min.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 48px;
+  padding-bottom: 40px;
+
+  &-position {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav {
+    display: none;
+  }
+
+  .hero-section {
+    margin-top: 45px;
+
+    .hero-list {
+      margin-top: 54px;
+    }
+
+    .title {
+      font-family: $second-family;
+      font-weight: 900;
+      font-size: 58px;
+      line-height: 108%;
+      text-transform: uppercase;
+      color: $white;
+    }
+
+    .hero-button {
+      border-radius: 108px;
+      border: none;
+      padding: 10px;
+      width: 315px;
+      height: 59px;
+      margin-top: 8px;
+      background-color: $main-red;
+      color: $white;
+    }
+
+    .hero-list {
+      border: 1px solid #000;
+      width: 314px;
+      height: 472px;
+      background: #000;
+      opacity: 0.6;
+      padding: 30px 80px 30px 23px;
+    }
+    .hero-list-item:nth-child(2),
+    .hero-list-item:nth-child(3){
+      margin-top: 32px;
+    }
+    .hero-list-item-span {
+      font-family: $second-family;
+      font-weight: 900;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: $main-red;
+      margin-top: 32;
+    }
+
+    .hero-list-item-title {
+      font-family: $font-family;
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 156%;
+      color: $white;
+    }
+
+    .hero-list-item-p {
+      font-family: $font-family;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 150%;
+      letter-spacing: 0.03em;
+      color: #939393;
+    }
+
+
+  }
+}
+
+.hero-left {
+  display: none;
+}
