@@ -44,16 +44,66 @@ img {
   padding-top: 48px;
   padding-bottom: 40px;
 }
+@media screen and (min-width: 1640px) {
+  .header {
+    padding-top: 28px;
+    padding-bottom: 0;
+  }
+}
 .header-position {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+@media screen and (min-width: 1640px) {
+  .header-position {
+    justify-content: start;
+  }
+}
 .header .nav {
   display: none;
 }
+@media screen and (min-width: 1640px) {
+  .header .nav {
+    display: block;
+  }
+}
+.header .nav .nav-list {
+  display: flex;
+  margin-left: 64px;
+  -moz-column-gap: 62px;
+       column-gap: 62px;
+  align-items: center;
+}
+.header .nav .nav-list .nav-link {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+.header .right {
+  display: flex;
+  -moz-column-gap: 29px;
+       column-gap: 29px;
+}
+@media screen and (min-width: 1640px) {
+  .header .right {
+    margin-left: auto;
+    -moz-column-gap: 40px;
+         column-gap: 40px;
+  }
+}
 .header .hero-section {
   margin-top: 45px;
+}
+@media screen and (min-width: 1640px) {
+  .header .hero-section {
+    margin-top: 136px;
+    display: flex;
+    -moz-column-gap: 203px;
+         column-gap: 203px;
+  }
 }
 .header .hero-section .hero-list {
   margin-top: 54px;
