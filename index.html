@@ -118,7 +118,24 @@
           <ul class="views-list">
             <li class="views-item">
               <div class="views-image">
-                <img src="" alt="walkways" />
+                <picture>
+                <source
+                  srcset="
+                    ./images/Rectangle 9walkways-desktop1x-min.jpg 1x,
+                    ./images/Rectangle 9walkways-desktop2x-min.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/Rectangle 9walkways-mobile1x-min.jpg 1x,
+                    ./images/Rectangle 9walkways-mobile2x-min.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img src="./images/Rectangle 9walkways-desktop1x-min.jpg" alt="walkways" />
+              </picture>
+                
               </div>
               <div class="views-content">
                 <h2 class="views-title">The walkways of Indonesia spellbind</h2>
@@ -130,6 +147,23 @@
               </div>
             </li>
             <li class="views-item">
+              <picture>
+                <source
+                  srcset="
+                    ./images/Rectangle 10beaches-desktop1x-min.jpg 1x,
+                    ./images/Rectangle 10beaches-desktop2x-min.jpg 2x
+                  "
+                  media="(min-width:1200px)"
+                />
+                <source
+                  srcset="
+                    ./images/Rectangle 10beach-mobile1x-min.jpg 1x,
+                    ./images/Rectangle 10beach-mobile2x-min.jpg 2x
+                  "
+                  media="(min-width:480px)"
+                />
+                <img src="./images/Rectangle 10beaches-desktop1x-min.jpg" alt="walkways" />
+              </picture>
               <div class="views-content">
                 <h2 class="views-title">
                   Perfect beaches exude relaxation and fun
@@ -141,7 +175,7 @@
                 <button type="button" class="views-btn">Learn more</button>
               </div>
               <div class="views-image">
-                <img src="" alt="walkways" />
+                
               </div>
             </li>
           </ul>
